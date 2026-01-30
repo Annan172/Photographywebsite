@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(176, 179, 155);
+    margin: 0;
+}
+
+header {
+    background-color: #1a2436;
+    color: rgb(226, 15, 15);
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    font-weight: bold;
+     text-align: center;
+}
+
+.gallery ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gallery li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallery img {
+    width: 350px;
+    height: auto;
+    border: 2px solid #fafafa;
+}
+
+.gallery img:hover {
+    border-color: #0077cc;
+}
+
+a {
+    text-decoration:none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#Annan{width: 450px;
+height: 300px;
+border-radius: 10px;}
+.bio{
+display: flex;
+    align-items: center;
+    gap: 20px;
+}
